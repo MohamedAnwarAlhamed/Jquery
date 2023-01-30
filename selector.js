@@ -9,4 +9,4 @@ $(document).ready(function() {
 
 });
 // ====================
-
+//https://www.w3schools.com/jquery/jquery_ref_selectors.asp
