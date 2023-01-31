@@ -19,4 +19,10 @@ $(document).ready(function() {
     $("p").prevAll().css({"color": "red", "border": "2px solid red"});
     $("p").prevUntil("h2").css({"color": "red", "border": "2px solid red"});
 
+    $("p").first().css({"color": "red", "border": "2px solid red"});
+    $("p").last().css({"color": "red", "border": "2px solid red"});
+    $("p").eq(1).css({"color": "red", "border": "2px solid red"});
+    $("p").filter(".intro").css({"color": "red", "border": "2px solid red"});
+    $("p").not(".intro").css({"color": "red", "border": "2px solid red"});
+
 });
