@@ -4,6 +4,9 @@ $(document).ready(function() {
     $("nameofele").click(function() {
         // code
     })
+    $("nameofele").on('click', function() {
+        // code
+    });
    
 
 });
